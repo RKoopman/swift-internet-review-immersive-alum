@@ -173,7 +173,7 @@ let urlString = "http://api.someurl.com"
     task.resume()
 ```
 
-###  <a name="unneccessary"></a> Things I Don't need for the assessment but should also know
+###  <a name="unnecessary"></a> Things I Don't need for the assessment but should also know
 
 1. How to do different HTTP verbs
 2. How to get status code
