@@ -7,8 +7,6 @@ What do I need to know.
 2. How to make a Session
 3. How to make a Data Task 
 4. How to parse JSON
-5. How to make a completion
-
 
 #### 1. How to make a URL Object
 
