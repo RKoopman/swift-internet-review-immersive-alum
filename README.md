@@ -173,6 +173,10 @@ let urlString = "http://api.someurl.com"
     task.resume()
 ```
 
+### Conclusion
+
+Using the internet takes practice. Reach out to the instructors if you are interested in playing around with different APIs
+
 ###  <a name="unnecessary"></a> Things I Don't need for the assessment but should also know
 
 1. How to do different HTTP verbs
