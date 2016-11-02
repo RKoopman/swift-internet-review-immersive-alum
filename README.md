@@ -162,7 +162,7 @@ let urlString = "http://api.someurl.com"
     let task = session.dataTask(with: unwrappedUrl, completionHandler: { (data, response, error) in
         if let unwrappedData = data{
             do{
-                let responseJSON = try JSONSerialization.jsonObject(with: unwrappedData, options: [])
+                let responseJSON = try JSONSerialization.jsonObject(with: unwrappedData, options: []) as! [String: Any]
             }catch{
                 
             }
