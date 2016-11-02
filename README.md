@@ -172,6 +172,14 @@ let urlString = "http://api.someurl.com"
 ```
 
 
+### Things I Don't need for the assessment but should be aware of 
+
+1. How to do different HTTP verbs
+2. How to get status code
+3. How to send a header
+4. How to use a queryString/Parameters
+
+
 
 
 
