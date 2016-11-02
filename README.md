@@ -8,7 +8,7 @@ What do I need to know.
 3. How to make a Data Task 
 4. How to parse JSON
 
-*[Not Included In Assessment](#unnecessary)
+* [Not Included In Assessment](#unnecessary)
 
 #### 1. How to make a URL Object
 
