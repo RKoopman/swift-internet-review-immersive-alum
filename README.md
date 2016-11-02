@@ -8,6 +8,8 @@ What do I need to know.
 3. How to make a Data Task 
 4. How to parse JSON
 
+*[Not Included In Assessment](#unnecessary)
+
 #### 1. How to make a URL Object
 
 ```
@@ -171,13 +173,14 @@ let urlString = "http://api.someurl.com"
     task.resume()
 ```
 
-
-### Things I Don't need for the assessment but should be aware of 
+###  <a name="unneccessary"></a> Things I Don't need for the assessment but should also know
 
 1. How to do different HTTP verbs
 2. How to get status code
 3. How to send a header
 4. How to use a queryString/Parameters
+
+
 
 
 
