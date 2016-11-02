@@ -175,14 +175,76 @@ let urlString = "http://api.someurl.com"
 
 ### Conclusion
 
-Using the internet takes practice. Reach out to the instructors if you are interested in playing around with different APIs
+Using the internet takes practice. Reach out to the instructors if you are interested in playing around with different APIs. There is some copy paste code at the bottom
 
-###  <a name="unnecessary"></a> Things I Don't need for the assessment but should also know
+###  <a name="unneccessary"></a> Things I Don't need for the assessment but should be aware of 
 
 1. How to do different HTTP verbs
 2. How to get status code
 3. How to send a header
 4. How to use a queryString/Parameters
+
+
+
+### Some Copy Paste Code
+
+```
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        
+        let urlString = "https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY"
+        
+        let url = URL(string: urlString)
+        
+        
+        if let unwrappedUrl = url{
+            let session = URLSession.shared
+            let task = session.dataTask(with: unwrappedUrl) { (data, response, error) in
+                if let unwrappedData = data{
+                    do {
+                        let responseJSON = try JSONSerialization.jsonObject(with: unwrappedData, options: []) as! [String:Any]
+                        
+                        print(responseJSON)
+                        
+                    }catch{
+                        
+                    }
+                    
+                    
+                }
+            }
+            task.resume()
+            
+        }
+        
+    }
+
+}
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
