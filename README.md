@@ -8,7 +8,6 @@ What do I need to know.
 3. How to make a Data Task 
 4. How to parse JSON
 
-* [Not Included In Assessment](#unnecessary)
 
 #### 1. How to make a URL Object
 
@@ -177,7 +176,7 @@ let urlString = "http://api.someurl.com"
 
 Using the internet takes practice. Reach out to the instructors if you are interested in playing around with different APIs. There is some copy paste code at the bottom
 
-###  <a name="unneccessary"></a> Things I Don't need for the assessment but should be aware of 
+### Things I Don't need for the assessment but should be aware of 
 
 1. How to do different HTTP verbs
 2. How to get status code
